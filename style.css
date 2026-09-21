@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Swis721 Hv BT";
+  src: url("swiss721-heavy.otp") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+.name {
+  font-size: clamp(3rem, 14vw, 5rem);
+  letter-spacing: -0.02em;
+}
+
 /* ==========================================================
    Aidan April - one page artist hub
    Colors are pulled from the profile photo: tunnel shadow,
@@ -13,7 +26,7 @@
   --line: rgba(239, 229, 216, 0.22);  /* button outlines */
   --wash: rgba(239, 229, 216, 0.06);  /* button fill */
 
-  --display: "Grenze Gotisch", "UnifrakturCook", Georgia, serif;
+--display: "Swis721 Hv BT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --text: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
