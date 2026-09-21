@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aidan April</title>
+  <meta name="description" content="Music and art by Aidan April. Listen, watch, and follow.">
+  <meta name="theme-color" content="#0f0a07">
+
+  <!-- Preview card when the link is shared -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aidan April">
+  <meta property="og:description" content="Music and art by Aidan April.">
+  <meta property="og:url" content="https://aidanapril.com">
+  <meta property="og:image" content="https://aidanapril.com/profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600;800&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--
+  HOW TO EDIT YOUR LINKS
+  ----------------------
+  Every button is ONE line that looks like this:
+
+      <a class="btn" href="PASTE-LINK-HERE">Button text</a>
+
+  - Paste your link between the quotes after href=
+  - Leave it as href="" and the button shows a dimmed "soon" tag and can't be clicked.
+    As soon as you paste a link in, it turns into a normal working button.
+  - To remove a button, delete its whole line.
+  - Keep the quote marks and the http(s):// at the start of each link.
+-->
+
+<main>
+
+  <header class="hero">
+    <img
+      src="profile.jpg"
+      width="1600" height="1600"
+      alt="Aidan April looking over his shoulder in a dark brick tunnel, with a black calligraphic tattoo across his arm">
+  </header>
+
+  <div class="intro">
+    <h1 class="name">Aidan April</h1>
+    <p class="tagline">Music and art</p>
+  </div>
+
+  <div class="links">
+
+    <!-- Main links (live now) -->
+    <section class="group">
+      <a class="btn primary" href="https://soundcloud.com/aidanapril" target="_blank" rel="noopener">Listen on SoundCloud</a>
+      <a class="btn primary" href="https://www.youtube.com/@Aidan_April" target="_blank" rel="noopener">Watch on YouTube</a>
+    </section>
+
+    <!-- Streaming (fill these in after your Symphonic release goes live) -->
+    <section class="group" aria-labelledby="streaming">
+      <h2 id="streaming">Streaming</h2>
+      <div class="grid">
+        <a class="btn" href="" target="_blank" rel="noopener">Spotify</a>
+        <a class="btn" href="" target="_blank" rel="noopener">Apple Music</a>
+        <a class="btn" href="" target="_blank" rel="noopener">Beatport</a>
+        <a class="btn" href="" target="_blank" rel="noopener">Amazon Music</a>
+        <a class="btn" href="" target="_blank" rel="noopener">YouTube Music</a>
+        <a class="btn" href="" target="_blank" rel="noopener">Tidal</a>
+        <a class="btn" href="" target="_blank" rel="noopener">Deezer</a>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="group" aria-label="Social media">
+      <div class="grid">
+        <a class="btn" href="https://www.instagram.com/aidan_aprii/" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn" href="https://www.tiktok.com/@aidan_april" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="foot">
+    <!-- To add a contact email later, add a line like:
+         <p><a href="mailto:you@aidanapril.com">you@aidanapril.com</a></p> -->
+    <p>&copy; 2026 Aidan April</p>
+  </footer>
+
+</main>
+
+<script>
+  // Buttons with an empty link (href="") can't be clicked yet.
+  // You don't need to edit this part.
+  document.querySelectorAll('a[href=""]').forEach(function (a) {
+    a.setAttribute('aria-disabled', 'true');
+    a.setAttribute('tabindex', '-1');
+    a.addEventListener('click', function (e) { e.preventDefault(); });
+  });
+</script>
+
+</body>
+</html>
